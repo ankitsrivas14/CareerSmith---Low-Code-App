@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "Utils",
+    "pageId": "Page1",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tgetRoleName: (roleId) => {\n\t\tswitch(roleId){\n\t\t\tcase 'frontend': \n\t\t\t\treturn {text: 'Frontend', color: '#FF731D'}\n\t\t\tcase 'backend': \n\t\t\t\treturn {text: 'Backend', color: '#5F9DF7'}\n\t\t\tcase 'devops': \n\t\t\t\treturn {text: 'DevOps', color: '#905E96'}\n\t\t\tcase 'qa': \n\t\t\t\treturn {text: 'QA', color: '#367E18'}\n\t\t\tcase 'fullstack': \n\t\t\t\treturn {text: 'Fullstack', color: '#874C62'}\n\t\t\tdefault: \n\t\t\t\treturn {text: 'Unknown', color: '#000000'}\n\t\t}\n\t}\n}",
+    "variables": []
+  },
+  "id": "Page1_Utils",
+  "deleted": false,
+  "gitSyncId": "633ea8100fb4c32f2eca8d9c_634184655ad82638b63a8475"
+}
