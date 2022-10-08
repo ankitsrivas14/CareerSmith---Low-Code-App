@@ -230,8 +230,8 @@
                                 "Text2": {
                                   "isVisible": true,
                                   "text": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return   Utils.getRoleName(currentItem.applied_for).text ;\n              })();\n            })}}",
-                                  "fontSize": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  '0.875rem';\n              })();\n            })}}",
-                                  "fontStyle": "",
+                                  "fontSize": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  '1.25rem';\n              })();\n            })}}",
+                                  "fontStyle": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  'BOLD';\n              })();\n            })}}",
                                   "textAlign": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  'CENTER';\n              })();\n            })}}",
                                   "textColor": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  '#ffffff';\n              })();\n            })}}",
                                   "truncateButtonColor": "#FFC13D",
@@ -310,6 +310,264 @@
                                   },
                                   "backgroundColor": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return   Utils.getRoleName(currentItem.applied_for).color ;\n              })();\n            })}}",
                                   "borderWidth": ""
+                                },
+                                "Text3": {
+                                  "isVisible": true,
+                                  "text": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return   currentItem.email ;\n              })();\n            })}}",
+                                  "fontSize": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  '0.875rem';\n              })();\n            })}}",
+                                  "fontStyle": "",
+                                  "textAlign": "LEFT",
+                                  "textColor": "#231F20",
+                                  "truncateButtonColor": "#FFC13D",
+                                  "widgetName": "Text3",
+                                  "shouldTruncate": false,
+                                  "overflow": "NONE",
+                                  "version": 1,
+                                  "animateLoading": true,
+                                  "searchTags": [
+                                    "typography",
+                                    "paragraph",
+                                    "label"
+                                  ],
+                                  "type": "TEXT_WIDGET",
+                                  "hideCard": false,
+                                  "isDeprecated": false,
+                                  "displayName": "Text",
+                                  "key": "lhg4e5u3lt",
+                                  "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+                                  "widgetId": "4s6nlapci0",
+                                  "renderMode": "CANVAS",
+                                  "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                                  "isLoading": false,
+                                  "parentColumnSpace": 8.0885009765625,
+                                  "parentRowSpace": 10,
+                                  "leftColumn": 18,
+                                  "rightColumn": 34,
+                                  "topRow": 5,
+                                  "bottomRow": 9,
+                                  "parentId": "nxcqg44mjc",
+                                  "dynamicBindingPathList": [
+                                    {
+                                      "key": "fontFamily"
+                                    },
+                                    {
+                                      "key": "borderRadius"
+                                    }
+                                  ],
+                                  "logBlackList": {
+                                    "isVisible": true,
+                                    "text": true,
+                                    "fontSize": true,
+                                    "fontStyle": true,
+                                    "textAlign": true,
+                                    "textColor": true,
+                                    "truncateButtonColor": true,
+                                    "widgetName": true,
+                                    "shouldTruncate": true,
+                                    "overflow": true,
+                                    "version": true,
+                                    "animateLoading": true,
+                                    "searchTags": true,
+                                    "type": true,
+                                    "hideCard": true,
+                                    "isDeprecated": true,
+                                    "replacement": true,
+                                    "displayName": true,
+                                    "key": true,
+                                    "iconSVG": true,
+                                    "isCanvas": true,
+                                    "minHeight": true,
+                                    "widgetId": true,
+                                    "renderMode": true,
+                                    "fontFamily": true,
+                                    "borderRadius": true,
+                                    "isLoading": true,
+                                    "parentColumnSpace": true,
+                                    "parentRowSpace": true,
+                                    "leftColumn": true,
+                                    "rightColumn": true,
+                                    "topRow": true,
+                                    "bottomRow": true,
+                                    "parentId": true,
+                                    "dynamicBindingPathList": true
+                                  },
+                                  "borderWidth": ""
+                                },
+                                "Text2Copy": {
+                                  "widgetName": "Text2Copy",
+                                  "displayName": "Text",
+                                  "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+                                  "searchTags": [
+                                    "typography",
+                                    "paragraph",
+                                    "label"
+                                  ],
+                                  "topRow": 15,
+                                  "bottomRow": 19,
+                                  "parentRowSpace": 10,
+                                  "type": "TEXT_WIDGET",
+                                  "hideCard": false,
+                                  "animateLoading": true,
+                                  "overflow": "NONE",
+                                  "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                                  "parentColumnSpace": 7.976806640625,
+                                  "dynamicTriggerPathList": [],
+                                  "leftColumn": 50,
+                                  "dynamicBindingPathList": [
+                                    {
+                                      "key": "fontFamily"
+                                    },
+                                    {
+                                      "key": "text"
+                                    },
+                                    {
+                                      "key": "backgroundColor"
+                                    }
+                                  ],
+                                  "shouldTruncate": false,
+                                  "truncateButtonColor": "#FFC13D",
+                                  "text": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return   Utils.getStatusName(currentItem.status).text ;\n              })();\n            })}}",
+                                  "key": "ujo29mwv4p",
+                                  "isDeprecated": false,
+                                  "rightColumn": 63,
+                                  "textAlign": "CENTER",
+                                  "widgetId": "jb77req3bb",
+                                  "logBlackList": {
+                                    "isVisible": true,
+                                    "text": true,
+                                    "fontSize": true,
+                                    "fontStyle": true,
+                                    "textAlign": true,
+                                    "textColor": true,
+                                    "truncateButtonColor": true,
+                                    "widgetName": true,
+                                    "shouldTruncate": true,
+                                    "overflow": true,
+                                    "version": true,
+                                    "animateLoading": true,
+                                    "searchTags": true,
+                                    "type": true,
+                                    "hideCard": true,
+                                    "isDeprecated": true,
+                                    "replacement": true,
+                                    "displayName": true,
+                                    "key": true,
+                                    "iconSVG": true,
+                                    "isCanvas": true,
+                                    "minHeight": true,
+                                    "widgetId": true,
+                                    "renderMode": true,
+                                    "fontFamily": true,
+                                    "borderRadius": true,
+                                    "isLoading": true,
+                                    "parentColumnSpace": true,
+                                    "parentRowSpace": true,
+                                    "leftColumn": true,
+                                    "rightColumn": true,
+                                    "topRow": true,
+                                    "bottomRow": true,
+                                    "parentId": true,
+                                    "dynamicBindingPathList": true
+                                  },
+                                  "isVisible": true,
+                                  "fontStyle": "",
+                                  "textColor": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  '#231f20';\n              })();\n            })}}",
+                                  "version": 1,
+                                  "parentId": "nxcqg44mjc",
+                                  "renderMode": "CANVAS",
+                                  "isLoading": false,
+                                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                                  "fontSize": "0.875rem",
+                                  "backgroundColor": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return   Utils.getStatusName(currentItem.status).color ;\n              })();\n            })}}",
+                                  "dynamicPropertyPathList": [
+                                    {
+                                      "key": "backgroundColor"
+                                    }
+                                  ],
+                                  "borderWidth": ""
+                                },
+                                "Text4": {
+                                  "isVisible": true,
+                                  "text": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  `${currentItem.experience} Yrs`;\n              })();\n            })}}",
+                                  "fontSize": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  '1.875rem';\n              })();\n            })}}",
+                                  "fontStyle": "BOLD",
+                                  "textAlign": "LEFT",
+                                  "textColor": "#231F20",
+                                  "truncateButtonColor": "#FFC13D",
+                                  "widgetName": "Text4",
+                                  "shouldTruncate": false,
+                                  "overflow": "NONE",
+                                  "version": 1,
+                                  "animateLoading": true,
+                                  "searchTags": [
+                                    "typography",
+                                    "paragraph",
+                                    "label"
+                                  ],
+                                  "type": "TEXT_WIDGET",
+                                  "hideCard": false,
+                                  "isDeprecated": false,
+                                  "displayName": "Text",
+                                  "key": "lhg4e5u3lt",
+                                  "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+                                  "widgetId": "pku5d7f8mx",
+                                  "renderMode": "CANVAS",
+                                  "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                                  "isLoading": false,
+                                  "parentColumnSpace": 8.0885009765625,
+                                  "parentRowSpace": 10,
+                                  "leftColumn": 18,
+                                  "rightColumn": 34,
+                                  "topRow": 10,
+                                  "bottomRow": 14,
+                                  "parentId": "nxcqg44mjc",
+                                  "dynamicBindingPathList": [
+                                    {
+                                      "key": "fontFamily"
+                                    },
+                                    {
+                                      "key": "borderRadius"
+                                    }
+                                  ],
+                                  "logBlackList": {
+                                    "isVisible": true,
+                                    "text": true,
+                                    "fontSize": true,
+                                    "fontStyle": true,
+                                    "textAlign": true,
+                                    "textColor": true,
+                                    "truncateButtonColor": true,
+                                    "widgetName": true,
+                                    "shouldTruncate": true,
+                                    "overflow": true,
+                                    "version": true,
+                                    "animateLoading": true,
+                                    "searchTags": true,
+                                    "type": true,
+                                    "hideCard": true,
+                                    "isDeprecated": true,
+                                    "replacement": true,
+                                    "displayName": true,
+                                    "key": true,
+                                    "iconSVG": true,
+                                    "isCanvas": true,
+                                    "minHeight": true,
+                                    "widgetId": true,
+                                    "renderMode": true,
+                                    "fontFamily": true,
+                                    "borderRadius": true,
+                                    "isLoading": true,
+                                    "parentColumnSpace": true,
+                                    "parentRowSpace": true,
+                                    "leftColumn": true,
+                                    "rightColumn": true,
+                                    "topRow": true,
+                                    "bottomRow": true,
+                                    "parentId": true,
+                                    "dynamicBindingPathList": true
+                                  }
                                 }
                               },
                               "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
@@ -366,6 +624,30 @@
                                 },
                                 {
                                   "key": "template.Text1.text"
+                                },
+                                {
+                                  "key": "template.Text3.fontSize"
+                                },
+                                {
+                                  "key": "template.Text3.text"
+                                },
+                                {
+                                  "key": "template.Text2Copy.text"
+                                },
+                                {
+                                  "key": "template.Text2Copy.backgroundColor"
+                                },
+                                {
+                                  "key": "template.Text2Copy.textColor"
+                                },
+                                {
+                                  "key": "template.Text2.fontStyle"
+                                },
+                                {
+                                  "key": "template.Text4.text"
+                                },
+                                {
+                                  "key": "template.Text4.fontSize"
                                 }
                               ],
                               "gridType": "vertical",
@@ -434,6 +716,99 @@
                                           "leftColumn": 0,
                                           "dynamicBindingPathList": [],
                                           "children": [
+                                            {
+                                              "widgetName": "Text2Copy",
+                                              "dynamicPropertyPathList": [
+                                                {
+                                                  "key": "backgroundColor"
+                                                }
+                                              ],
+                                              "displayName": "Text",
+                                              "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+                                              "searchTags": [
+                                                "typography",
+                                                "paragraph",
+                                                "label"
+                                              ],
+                                              "topRow": 0,
+                                              "bottomRow": 4,
+                                              "parentRowSpace": 10,
+                                              "type": "TEXT_WIDGET",
+                                              "hideCard": false,
+                                              "animateLoading": true,
+                                              "overflow": "NONE",
+                                              "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                                              "parentColumnSpace": 7.976806640625,
+                                              "dynamicTriggerPathList": [],
+                                              "leftColumn": 51,
+                                              "dynamicBindingPathList": [
+                                                {
+                                                  "key": "fontFamily"
+                                                },
+                                                {
+                                                  "key": "text"
+                                                },
+                                                {
+                                                  "key": "backgroundColor"
+                                                }
+                                              ],
+                                              "shouldTruncate": false,
+                                              "borderWidth": "",
+                                              "truncateButtonColor": "#FFC13D",
+                                              "text": "{{ Utils.getStatusName(currentItem.status).text }}",
+                                              "key": "ujo29mwv4p",
+                                              "isDeprecated": false,
+                                              "rightColumn": 64,
+                                              "backgroundColor": "{{ Utils.getStatusName(currentItem.status).color }}",
+                                              "textAlign": "CENTER",
+                                              "widgetId": "jb77req3bb",
+                                              "logBlackList": {
+                                                "isVisible": true,
+                                                "text": true,
+                                                "fontSize": true,
+                                                "fontStyle": true,
+                                                "textAlign": true,
+                                                "textColor": true,
+                                                "truncateButtonColor": true,
+                                                "widgetName": true,
+                                                "shouldTruncate": true,
+                                                "overflow": true,
+                                                "version": true,
+                                                "animateLoading": true,
+                                                "searchTags": true,
+                                                "type": true,
+                                                "hideCard": true,
+                                                "isDeprecated": true,
+                                                "replacement": true,
+                                                "displayName": true,
+                                                "key": true,
+                                                "iconSVG": true,
+                                                "isCanvas": true,
+                                                "minHeight": true,
+                                                "widgetId": true,
+                                                "renderMode": true,
+                                                "fontFamily": true,
+                                                "borderRadius": true,
+                                                "isLoading": true,
+                                                "parentColumnSpace": true,
+                                                "parentRowSpace": true,
+                                                "leftColumn": true,
+                                                "rightColumn": true,
+                                                "topRow": true,
+                                                "bottomRow": true,
+                                                "parentId": true,
+                                                "dynamicBindingPathList": true
+                                              },
+                                              "isVisible": true,
+                                              "fontStyle": "",
+                                              "textColor": "#231f20",
+                                              "version": 1,
+                                              "parentId": "nxcqg44mjc",
+                                              "renderMode": "CANVAS",
+                                              "isLoading": false,
+                                              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                                              "fontSize": "0.875rem"
+                                            },
                                             {
                                               "boxShadow": "none",
                                               "widgetName": "Image1",
@@ -609,8 +984,8 @@
                                                 "paragraph",
                                                 "label"
                                               ],
-                                              "topRow": 1,
-                                              "bottomRow": 5,
+                                              "topRow": 9,
+                                              "bottomRow": 15,
                                               "parentRowSpace": 10,
                                               "type": "TEXT_WIDGET",
                                               "hideCard": false,
@@ -619,7 +994,7 @@
                                               "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
                                               "parentColumnSpace": 7.976806640625,
                                               "dynamicTriggerPathList": [],
-                                              "leftColumn": 50,
+                                              "leftColumn": 44,
                                               "dynamicBindingPathList": [
                                                 {
                                                   "key": "fontFamily"
@@ -637,7 +1012,7 @@
                                               "text": "{{ Utils.getRoleName(currentItem.applied_for).text }}",
                                               "key": "ujo29mwv4p",
                                               "isDeprecated": false,
-                                              "rightColumn": 63,
+                                              "rightColumn": 64,
                                               "backgroundColor": "{{ Utils.getRoleName(currentItem.applied_for).color }}",
                                               "textAlign": "CENTER",
                                               "widgetId": "7at9a5gtyw",
@@ -679,14 +1054,225 @@
                                                 "dynamicBindingPathList": true
                                               },
                                               "isVisible": true,
-                                              "fontStyle": "",
+                                              "fontStyle": "BOLD",
                                               "textColor": "#ffffff",
                                               "version": 1,
                                               "parentId": "nxcqg44mjc",
                                               "renderMode": "CANVAS",
                                               "isLoading": false,
                                               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                                              "fontSize": "1.25rem"
+                                            },
+                                            {
+                                              "widgetName": "Text3",
+                                              "displayName": "Text",
+                                              "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+                                              "searchTags": [
+                                                "typography",
+                                                "paragraph",
+                                                "label"
+                                              ],
+                                              "topRow": 5,
+                                              "bottomRow": 9,
+                                              "parentRowSpace": 10,
+                                              "type": "TEXT_WIDGET",
+                                              "hideCard": false,
+                                              "animateLoading": true,
+                                              "overflow": "NONE",
+                                              "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                                              "parentColumnSpace": 8.0885009765625,
+                                              "dynamicTriggerPathList": [],
+                                              "leftColumn": 22,
+                                              "dynamicBindingPathList": [
+                                                {
+                                                  "key": "fontFamily"
+                                                },
+                                                {
+                                                  "key": "borderRadius"
+                                                },
+                                                {
+                                                  "key": "text"
+                                                }
+                                              ],
+                                              "shouldTruncate": false,
+                                              "borderWidth": "",
+                                              "truncateButtonColor": "#FFC13D",
+                                              "text": "{{ currentItem.email }}",
+                                              "key": "lhg4e5u3lt",
+                                              "isDeprecated": false,
+                                              "rightColumn": 64,
+                                              "textAlign": "LEFT",
+                                              "widgetId": "4s6nlapci0",
+                                              "logBlackList": {
+                                                "isVisible": true,
+                                                "text": true,
+                                                "fontSize": true,
+                                                "fontStyle": true,
+                                                "textAlign": true,
+                                                "textColor": true,
+                                                "truncateButtonColor": true,
+                                                "widgetName": true,
+                                                "shouldTruncate": true,
+                                                "overflow": true,
+                                                "version": true,
+                                                "animateLoading": true,
+                                                "searchTags": true,
+                                                "type": true,
+                                                "hideCard": true,
+                                                "isDeprecated": true,
+                                                "replacement": true,
+                                                "displayName": true,
+                                                "key": true,
+                                                "iconSVG": true,
+                                                "isCanvas": true,
+                                                "minHeight": true,
+                                                "widgetId": true,
+                                                "renderMode": true,
+                                                "fontFamily": true,
+                                                "borderRadius": true,
+                                                "isLoading": true,
+                                                "parentColumnSpace": true,
+                                                "parentRowSpace": true,
+                                                "leftColumn": true,
+                                                "rightColumn": true,
+                                                "topRow": true,
+                                                "bottomRow": true,
+                                                "parentId": true,
+                                                "dynamicBindingPathList": true
+                                              },
+                                              "isVisible": true,
+                                              "fontStyle": "",
+                                              "textColor": "#231F20",
+                                              "version": 1,
+                                              "parentId": "nxcqg44mjc",
+                                              "renderMode": "CANVAS",
+                                              "isLoading": false,
+                                              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                                               "fontSize": "0.875rem"
+                                            },
+                                            {
+                                              "boxShadow": "none",
+                                              "widgetName": "IconButton1",
+                                              "buttonColor": "#3f3f46",
+                                              "displayName": "Icon Button",
+                                              "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
+                                              "searchTags": [
+                                                "click",
+                                                "submit"
+                                              ],
+                                              "topRow": 5,
+                                              "bottomRow": 9,
+                                              "parentRowSpace": 10,
+                                              "type": "ICON_BUTTON_WIDGET",
+                                              "hideCard": false,
+                                              "animateLoading": true,
+                                              "parentColumnSpace": 19.75,
+                                              "dynamicTriggerPathList": [],
+                                              "leftColumn": 18,
+                                              "dynamicBindingPathList": [
+                                                {
+                                                  "key": "borderRadius"
+                                                }
+                                              ],
+                                              "isDisabled": false,
+                                              "key": "tih2tdb613",
+                                              "isDeprecated": false,
+                                              "rightColumn": 21,
+                                              "iconName": "envelope",
+                                              "widgetId": "0y42o1hkct",
+                                              "isVisible": true,
+                                              "version": 1,
+                                              "parentId": "nxcqg44mjc",
+                                              "renderMode": "CANVAS",
+                                              "isLoading": false,
+                                              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                                              "buttonVariant": "PRIMARY"
+                                            },
+                                            {
+                                              "widgetName": "Text4",
+                                              "displayName": "Text",
+                                              "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+                                              "searchTags": [
+                                                "typography",
+                                                "paragraph",
+                                                "label"
+                                              ],
+                                              "topRow": 10,
+                                              "bottomRow": 14,
+                                              "parentRowSpace": 10,
+                                              "type": "TEXT_WIDGET",
+                                              "hideCard": false,
+                                              "animateLoading": true,
+                                              "overflow": "NONE",
+                                              "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                                              "parentColumnSpace": 8.0885009765625,
+                                              "dynamicTriggerPathList": [],
+                                              "leftColumn": 18,
+                                              "dynamicBindingPathList": [
+                                                {
+                                                  "key": "fontFamily"
+                                                },
+                                                {
+                                                  "key": "borderRadius"
+                                                },
+                                                {
+                                                  "key": "text"
+                                                }
+                                              ],
+                                              "shouldTruncate": false,
+                                              "truncateButtonColor": "#FFC13D",
+                                              "text": "{{`${currentItem.experience} Yrs`}}",
+                                              "key": "lhg4e5u3lt",
+                                              "isDeprecated": false,
+                                              "rightColumn": 34,
+                                              "textAlign": "LEFT",
+                                              "widgetId": "pku5d7f8mx",
+                                              "logBlackList": {
+                                                "isVisible": true,
+                                                "text": true,
+                                                "fontSize": true,
+                                                "fontStyle": true,
+                                                "textAlign": true,
+                                                "textColor": true,
+                                                "truncateButtonColor": true,
+                                                "widgetName": true,
+                                                "shouldTruncate": true,
+                                                "overflow": true,
+                                                "version": true,
+                                                "animateLoading": true,
+                                                "searchTags": true,
+                                                "type": true,
+                                                "hideCard": true,
+                                                "isDeprecated": true,
+                                                "replacement": true,
+                                                "displayName": true,
+                                                "key": true,
+                                                "iconSVG": true,
+                                                "isCanvas": true,
+                                                "minHeight": true,
+                                                "widgetId": true,
+                                                "renderMode": true,
+                                                "fontFamily": true,
+                                                "borderRadius": true,
+                                                "isLoading": true,
+                                                "parentColumnSpace": true,
+                                                "parentRowSpace": true,
+                                                "leftColumn": true,
+                                                "rightColumn": true,
+                                                "topRow": true,
+                                                "bottomRow": true,
+                                                "parentId": true,
+                                                "dynamicBindingPathList": true
+                                              },
+                                              "isVisible": true,
+                                              "fontStyle": "BOLD",
+                                              "textColor": "#231F20",
+                                              "version": 1,
+                                              "parentId": "nxcqg44mjc",
+                                              "renderMode": "CANVAS",
+                                              "isLoading": false,
+                                              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                                              "fontSize": "1.875rem"
                                             }
                                           ],
                                           "key": "b64pvtx9v9",
