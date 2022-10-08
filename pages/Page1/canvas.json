@@ -1,0 +1,508 @@
+{
+  "unpublishedPage": {
+    "name": "Page1",
+    "slug": "page1",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 4896,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 890,
+          "containerStyle": "none",
+          "snapRows": 125,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 64,
+          "minHeight": 1292,
+          "dynamicTriggerPathList": [],
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "children": [
+            {
+              "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
+              "widgetName": "Tabs1",
+              "isCanvas": true,
+              "displayName": "Tabs",
+              "iconSVG": "/static/media/icon.74a6d653c8201e66f1cd367a3fba2657.svg",
+              "topRow": 0,
+              "bottomRow": 87,
+              "parentRowSpace": 10,
+              "type": "TABS_WIDGET",
+              "hideCard": false,
+              "shouldScrollContents": false,
+              "animateLoading": true,
+              "parentColumnSpace": 19.8125,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 0,
+              "dynamicBindingPathList": [
+                {
+                  "key": "accentColor"
+                },
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "children": [
+                {
+                  "tabId": "tab1",
+                  "boxShadow": "none",
+                  "widgetName": "Canvas1",
+                  "displayName": "Canvas",
+                  "topRow": 0,
+                  "bottomRow": 400,
+                  "parentRowSpace": 1,
+                  "type": "CANVAS_WIDGET",
+                  "canExtend": true,
+                  "hideCard": true,
+                  "shouldScrollContents": false,
+                  "minHeight": 400,
+                  "parentColumnSpace": 1,
+                  "dynamicTriggerPathList": [],
+                  "leftColumn": 0,
+                  "dynamicBindingPathList": [
+                    {
+                      "key": "borderRadius"
+                    },
+                    {
+                      "key": "accentColor"
+                    }
+                  ],
+                  "children": [],
+                  "isDisabled": false,
+                  "key": "s6jgd3qr4d",
+                  "isDeprecated": false,
+                  "tabName": "Home",
+                  "rightColumn": 475.5,
+                  "detachFromLayout": true,
+                  "widgetId": "33dw1x8p05",
+                  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "isVisible": true,
+                  "version": 1,
+                  "parentId": "5xn0s3s0te",
+                  "renderMode": "CANVAS",
+                  "isLoading": false,
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+                },
+                {
+                  "tabId": "tabiases2k0vl",
+                  "boxShadow": "none",
+                  "widgetName": "Canvas2",
+                  "displayName": "Canvas",
+                  "topRow": 1,
+                  "bottomRow": 860,
+                  "parentRowSpace": 1,
+                  "type": "CANVAS_WIDGET",
+                  "canExtend": false,
+                  "hideCard": true,
+                  "minHeight": 870,
+                  "parentColumnSpace": 1,
+                  "dynamicTriggerPathList": [],
+                  "leftColumn": 0,
+                  "dynamicBindingPathList": [
+                    {
+                      "key": "borderRadius"
+                    },
+                    {
+                      "key": "accentColor"
+                    }
+                  ],
+                  "children": [
+                    {
+                      "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
+                      "widgetName": "Tabs2",
+                      "isCanvas": true,
+                      "displayName": "Tabs",
+                      "iconSVG": "/static/media/icon.74a6d653c8201e66f1cd367a3fba2657.svg",
+                      "topRow": 2,
+                      "bottomRow": 66,
+                      "parentRowSpace": 10,
+                      "type": "TABS_WIDGET",
+                      "hideCard": false,
+                      "shouldScrollContents": false,
+                      "animateLoading": true,
+                      "parentColumnSpace": 19.5,
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 2,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "accentColor"
+                        },
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "children": [
+                        {
+                          "tabId": "tab1",
+                          "boxShadow": "none",
+                          "widgetName": "Canvas3",
+                          "displayName": "Canvas",
+                          "topRow": 0,
+                          "bottomRow": 400,
+                          "parentRowSpace": 1,
+                          "type": "CANVAS_WIDGET",
+                          "canExtend": true,
+                          "hideCard": true,
+                          "shouldScrollContents": false,
+                          "minHeight": 400,
+                          "parentColumnSpace": 1,
+                          "dynamicTriggerPathList": [],
+                          "leftColumn": 0,
+                          "dynamicBindingPathList": [
+                            {
+                              "key": "borderRadius"
+                            },
+                            {
+                              "key": "accentColor"
+                            }
+                          ],
+                          "children": [],
+                          "isDisabled": false,
+                          "key": "b64pvtx9v9",
+                          "isDeprecated": false,
+                          "tabName": "All",
+                          "rightColumn": 468,
+                          "detachFromLayout": true,
+                          "widgetId": "2zdlv23tdd",
+                          "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                          "isVisible": true,
+                          "version": 1,
+                          "parentId": "rbzxj8pyet",
+                          "renderMode": "CANVAS",
+                          "isLoading": false,
+                          "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+                        },
+                        {
+                          "tabId": "tab2",
+                          "boxShadow": "none",
+                          "widgetName": "Canvas4",
+                          "displayName": "Canvas",
+                          "topRow": 0,
+                          "bottomRow": 400,
+                          "parentRowSpace": 1,
+                          "type": "CANVAS_WIDGET",
+                          "canExtend": true,
+                          "hideCard": true,
+                          "shouldScrollContents": false,
+                          "minHeight": 400,
+                          "parentColumnSpace": 1,
+                          "dynamicTriggerPathList": [],
+                          "leftColumn": 0,
+                          "dynamicBindingPathList": [
+                            {
+                              "key": "borderRadius"
+                            },
+                            {
+                              "key": "accentColor"
+                            }
+                          ],
+                          "children": [],
+                          "isDisabled": false,
+                          "key": "b64pvtx9v9",
+                          "isDeprecated": false,
+                          "tabName": "New",
+                          "rightColumn": 468,
+                          "detachFromLayout": true,
+                          "widgetId": "q48dxtwo0x",
+                          "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                          "isVisible": true,
+                          "version": 1,
+                          "parentId": "rbzxj8pyet",
+                          "renderMode": "CANVAS",
+                          "isLoading": false,
+                          "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+                        },
+                        {
+                          "tabId": "tabgdaw21k416",
+                          "boxShadow": "none",
+                          "widgetName": "Canvas5",
+                          "displayName": "Canvas",
+                          "topRow": 1,
+                          "bottomRow": 401,
+                          "parentRowSpace": 1,
+                          "type": "CANVAS_WIDGET",
+                          "canExtend": false,
+                          "hideCard": true,
+                          "minHeight": 400,
+                          "parentColumnSpace": 1,
+                          "dynamicTriggerPathList": [],
+                          "leftColumn": 0,
+                          "dynamicBindingPathList": [
+                            {
+                              "key": "borderRadius"
+                            },
+                            {
+                              "key": "accentColor"
+                            }
+                          ],
+                          "children": [],
+                          "key": "b64pvtx9v9",
+                          "isDeprecated": false,
+                          "tabName": "Shortlisted",
+                          "rightColumn": 1150.5,
+                          "detachFromLayout": true,
+                          "widgetId": "89eapa9184",
+                          "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                          "containerStyle": "none",
+                          "isVisible": true,
+                          "version": 1,
+                          "parentId": "rbzxj8pyet",
+                          "renderMode": "CANVAS",
+                          "isLoading": false,
+                          "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+                        },
+                        {
+                          "tabId": "tabwd0x021txn",
+                          "boxShadow": "none",
+                          "widgetName": "Canvas6",
+                          "displayName": "Canvas",
+                          "topRow": 1,
+                          "bottomRow": 401,
+                          "parentRowSpace": 1,
+                          "type": "CANVAS_WIDGET",
+                          "canExtend": false,
+                          "hideCard": true,
+                          "minHeight": 400,
+                          "parentColumnSpace": 1,
+                          "dynamicTriggerPathList": [],
+                          "leftColumn": 0,
+                          "dynamicBindingPathList": [
+                            {
+                              "key": "borderRadius"
+                            },
+                            {
+                              "key": "accentColor"
+                            }
+                          ],
+                          "children": [],
+                          "key": "b64pvtx9v9",
+                          "isDeprecated": false,
+                          "tabName": "Offer Extended",
+                          "rightColumn": 1150.5,
+                          "detachFromLayout": true,
+                          "widgetId": "4rlif0am86",
+                          "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                          "containerStyle": "none",
+                          "isVisible": true,
+                          "version": 1,
+                          "parentId": "rbzxj8pyet",
+                          "renderMode": "CANVAS",
+                          "isLoading": false,
+                          "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+                        },
+                        {
+                          "tabId": "tabr4yse44dkb",
+                          "boxShadow": "none",
+                          "widgetName": "Canvas7",
+                          "displayName": "Canvas",
+                          "topRow": 1,
+                          "bottomRow": 401,
+                          "parentRowSpace": 1,
+                          "type": "CANVAS_WIDGET",
+                          "canExtend": false,
+                          "hideCard": true,
+                          "minHeight": 400,
+                          "parentColumnSpace": 1,
+                          "dynamicTriggerPathList": [],
+                          "leftColumn": 0,
+                          "dynamicBindingPathList": [
+                            {
+                              "key": "borderRadius"
+                            },
+                            {
+                              "key": "accentColor"
+                            }
+                          ],
+                          "children": [],
+                          "key": "b64pvtx9v9",
+                          "isDeprecated": false,
+                          "tabName": "Rejected",
+                          "rightColumn": 1150.5,
+                          "detachFromLayout": true,
+                          "widgetId": "talaa8xjhc",
+                          "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                          "containerStyle": "none",
+                          "isVisible": true,
+                          "version": 1,
+                          "parentId": "rbzxj8pyet",
+                          "renderMode": "CANVAS",
+                          "isLoading": false,
+                          "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+                        },
+                        {
+                          "tabId": "tab0t42zw68xl",
+                          "boxShadow": "none",
+                          "widgetName": "Canvas8",
+                          "displayName": "Canvas",
+                          "topRow": 1,
+                          "bottomRow": 401,
+                          "parentRowSpace": 1,
+                          "type": "CANVAS_WIDGET",
+                          "canExtend": false,
+                          "hideCard": true,
+                          "minHeight": 400,
+                          "parentColumnSpace": 1,
+                          "dynamicTriggerPathList": [],
+                          "leftColumn": 0,
+                          "dynamicBindingPathList": [
+                            {
+                              "key": "borderRadius"
+                            },
+                            {
+                              "key": "accentColor"
+                            }
+                          ],
+                          "children": [],
+                          "key": "b64pvtx9v9",
+                          "isDeprecated": false,
+                          "tabName": "Joined",
+                          "rightColumn": 1150.5,
+                          "detachFromLayout": true,
+                          "widgetId": "prqdmwnynj",
+                          "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                          "containerStyle": "none",
+                          "isVisible": true,
+                          "version": 1,
+                          "parentId": "rbzxj8pyet",
+                          "renderMode": "CANVAS",
+                          "isLoading": false,
+                          "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+                        }
+                      ],
+                      "key": "dw9mmfpyf1",
+                      "isDeprecated": false,
+                      "rightColumn": 61,
+                      "widgetId": "rbzxj8pyet",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "defaultTab": "Tab 1",
+                      "shouldShowTabs": true,
+                      "tabsObj": {
+                        "tab1": {
+                          "label": "All",
+                          "id": "tab1",
+                          "widgetId": "2zdlv23tdd",
+                          "isVisible": true,
+                          "index": 0,
+                          "isDuplicateLabel": false
+                        },
+                        "tab2": {
+                          "label": "New",
+                          "id": "tab2",
+                          "widgetId": "q48dxtwo0x",
+                          "isVisible": true,
+                          "index": 1,
+                          "isDuplicateLabel": false
+                        },
+                        "tabgdaw21k416": {
+                          "id": "tabgdaw21k416",
+                          "index": 2,
+                          "label": "Shortlisted",
+                          "widgetId": "89eapa9184",
+                          "isVisible": true,
+                          "isDuplicateLabel": false
+                        },
+                        "tabwd0x021txn": {
+                          "id": "tabwd0x021txn",
+                          "index": 3,
+                          "label": "Offer Extended",
+                          "widgetId": "4rlif0am86",
+                          "isVisible": true,
+                          "isDuplicateLabel": false
+                        },
+                        "tab0t42zw68xl": {
+                          "id": "tab0t42zw68xl",
+                          "index": 4,
+                          "label": "Joined",
+                          "widgetId": "prqdmwnynj",
+                          "isVisible": true,
+                          "isDuplicateLabel": false
+                        },
+                        "tabr4yse44dkb": {
+                          "id": "tabr4yse44dkb",
+                          "index": 5,
+                          "label": "Rejected",
+                          "widgetId": "talaa8xjhc",
+                          "isVisible": true,
+                          "isDuplicateLabel": false
+                        }
+                      },
+                      "isVisible": true,
+                      "version": 3,
+                      "parentId": "882z2qi5d6",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+                    }
+                  ],
+                  "key": "b64pvtx9v9",
+                  "isDeprecated": false,
+                  "tabName": "Candidates",
+                  "rightColumn": 1268,
+                  "detachFromLayout": true,
+                  "widgetId": "882z2qi5d6",
+                  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "containerStyle": "none",
+                  "isVisible": true,
+                  "version": 1,
+                  "parentId": "5xn0s3s0te",
+                  "renderMode": "CANVAS",
+                  "isLoading": false,
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+                }
+              ],
+              "key": "zfx1qnd5g6",
+              "isDeprecated": false,
+              "rightColumn": 64,
+              "widgetId": "5xn0s3s0te",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "defaultTab": "Tab 1",
+              "shouldShowTabs": true,
+              "tabsObj": {
+                "tab1": {
+                  "label": "Home",
+                  "id": "tab1",
+                  "widgetId": "33dw1x8p05",
+                  "isVisible": true,
+                  "index": 0,
+                  "isDuplicateLabel": false
+                },
+                "tabiases2k0vl": {
+                  "id": "tabiases2k0vl",
+                  "index": 1,
+                  "label": "Candidates",
+                  "widgetId": "882z2qi5d6",
+                  "isVisible": true
+                }
+              },
+              "isVisible": true,
+              "version": 3,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+            }
+          ]
+        },
+        "layoutOnLoadActions": [],
+        "layoutOnLoadActionErrors": [],
+        "validOnPageLoadActions": true,
+        "id": "Page1",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": []
+  },
+  "deleted": false,
+  "gitSyncId": "633ea8100fb4c32f2eca8d9c_633ea8100fb4c32f2eca8d9e"
+}
