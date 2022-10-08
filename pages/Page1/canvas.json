@@ -6619,9 +6619,6 @@
                               "dynamicPropertyPathList": [
                                 {
                                   "key": "listData"
-                                },
-                                {
-                                  "key": "isVisible"
                                 }
                               ],
                               "displayName": "List",
@@ -7407,7 +7404,7 @@
                               "itemBackgroundColor": "#FFFFFF",
                               "widgetId": "eud533mw1h",
                               "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-                              "isVisible": "",
+                              "isVisible": true,
                               "parentId": "talaa8xjhc",
                               "renderMode": "CANVAS",
                               "isLoading": false,
