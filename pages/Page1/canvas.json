@@ -142,7 +142,7 @@
                               "template": {
                                 "Image1": {
                                   "isVisible": true,
-                                  "defaultImage": "https://assets.appsmith.com/widgets/default.png",
+                                  "defaultImage": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  'https://assets.appsmith.com/widgets/default.png';\n              })();\n            })}}",
                                   "imageShape": "RECTANGLE",
                                   "maxZoomLevel": 1,
                                   "enableRotation": false,
@@ -180,7 +180,7 @@
                                 },
                                 "Text1": {
                                   "isVisible": true,
-                                  "text": "{{List1.listData.map((currentItem) => currentItem.name)}}",
+                                  "text": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.name;\n              })();\n            })}}",
                                   "fontSize": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  '1.25rem';\n              })();\n            })}}",
                                   "fontStyle": "BOLD",
                                   "textAlign": "LEFT",
@@ -357,6 +357,15 @@
                                 },
                                 {
                                   "key": "template.Text2.fontSize"
+                                },
+                                {
+                                  "key": "template.Image1.defaultImage"
+                                },
+                                {
+                                  "key": "template.Image1.image"
+                                },
+                                {
+                                  "key": "template.Text1.text"
                                 }
                               ],
                               "gridType": "vertical",
@@ -526,13 +535,13 @@
                                                   "key": "fontFamily"
                                                 }
                                               ],
-                                              "leftColumn": 17,
+                                              "leftColumn": 18,
                                               "shouldTruncate": false,
                                               "truncateButtonColor": "#FFC13D",
                                               "text": "{{currentItem.name}}",
                                               "key": "ujo29mwv4p",
                                               "isDeprecated": false,
-                                              "rightColumn": 40,
+                                              "rightColumn": 41,
                                               "textAlign": "LEFT",
                                               "widgetId": "ziaabda6oe",
                                               "logBlackList": {
