@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "mongo-plugin",
   "unpublishedAction": {
-    "name": "Get_All_Applicants",
+    "name": "get_new_applicants",
     "datasource": {
       "name": "HR Insights DS",
       "pluginId": "mongo-plugin",
@@ -59,7 +59,7 @@
             "data": ""
           },
           "query": {
-            "data": ""
+            "data": "{status: \"new\"}"
           },
           "sort": {
             "data": ""
@@ -78,7 +78,7 @@
         },
         "misc": {
           "formToNativeQuery": {
-            "data": "{\n  \"find\": \"applicants\",\n  \"limit\": 10,\n  \"batchSize\": 10\n}\n",
+            "data": "{\n  \"find\": \"applicants\",\n  \"filter\": {status: \"new\"},\n  \"limit\": 10,\n  \"batchSize\": 10\n}\n",
             "status": "SUCCESS"
           }
         },
@@ -109,7 +109,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Page1_Get_All_Applicants",
+  "id": "Page1_get_new_applicants",
   "deleted": false,
-  "gitSyncId": "633ea8100fb4c32f2eca8d9c_634180fab9c6b07893827b5b"
+  "gitSyncId": "633ea8100fb4c32f2eca8d9c_6341bb1089020c7ac2968245"
 }
